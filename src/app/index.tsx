@@ -95,6 +95,7 @@ export default function HomeScreen() {
   }
 
   function handleCardPress(cardId: number) {
+    console.log('TRACKING: Carta pressionada');
     if (selectedCards.length === 2) {
       return;
     }
