@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MeuApp57",
-    "slug": "MeuApp57",
+    "slug": "jogo-da-memoria",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -17,7 +17,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.juliooozarusteam.jogodamemoria"
     },
     "web": {
       "output": "static",
@@ -37,6 +38,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "502e5646-273c-4b93-954f-dfe211ceebd5"
+      }
+    },
+    "owner": "juliooozarus-team"
   }
 }
